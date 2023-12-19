@@ -1,0 +1,18 @@
+.cart {
+    font-size: 2.4em;
+    position: relative;
+}
+
+.item-count {
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    background: red;
+    height: 30px;
+    width: 30px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: initial;
+    border-radius: 50%;
+}

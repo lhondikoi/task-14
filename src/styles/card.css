@@ -1,0 +1,39 @@
+.card {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    gap: 18px;
+    background: #fff;
+}
+
+.imgbox {
+    height: 50%;
+    display: grid;
+    place-items: center;
+    background: #ddd;
+    align-self: stretch;
+}
+
+.card > button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.card > button:hover {
+    background: #000;
+    color: #fff;
+    transition: all 200ms;
+}
+
+.card > span:nth-child(2) {
+    font-weight: 600;
+    font-size: 1.4em;
+}
